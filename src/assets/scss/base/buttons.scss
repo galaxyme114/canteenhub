@@ -1,0 +1,11 @@
+.btn {
+  font-weight: 400;
+  letter-spacing: 0.4px;
+
+  // border-width: 1px !important;
+
+  &.btn-sm {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+  }
+}

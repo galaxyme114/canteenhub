@@ -1,0 +1,14 @@
+.avatar {
+  &.bg-success {
+    background-color: $accent !important;
+    color: $secondary !important;
+  }
+
+  &.avatar-lg .avatar-content .avatar-icon,
+  &.avatar-lg .avatar-content i,
+  &.avatar-lg .avatar-content svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    font-size: 1.5rem;
+  }
+}

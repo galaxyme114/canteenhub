@@ -1,0 +1,89 @@
+.navbar-sticky .header-navbar {
+  background-color: white !important;
+  box-shadow: inset 0px -1px 0px $gray-200 !important;
+}
+
+// .horizontal-menu {
+.navbar.header-navbar {
+  .brand-logo {
+    img {
+      height: 34px;
+    }
+  }
+
+  .navbar-container {
+    padding: 0.5rem 2rem !important;
+
+    ul.navbar-nav {
+      li {
+        &.dropdown-submenu,
+        a.nav-link:not(.dropdown-user-link) {
+          font-size: 0.9rem;
+          border-radius: 20px;
+          padding: 0.4rem 0.8rem;
+          color: $secondary;
+          &:hover {
+            background: $gray-100;
+          }
+        }
+        a.dropdown-user-link {
+          .user-name {
+            margin-bottom: 1px;
+          }
+        }
+
+        &.dropdown-submenu {
+          padding: 0;
+
+          .dropdown-item {
+            font-size: 0.9rem;
+            border-radius: 20px;
+            padding: 0.4rem 1.2rem 0.4rem 0.8rem;
+            &:hover,
+            &:focus {
+              background: $gray-100;
+              color: $secondary;
+            }
+            &:after {
+              left: 0.5rem;
+              color: $secondary !important;
+              background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23181e4b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-chevron-down'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+            }
+          }
+
+          .dropdown-menu {
+            a {
+              border-radius: 0;
+              &:hover {
+                color: $radical-red;
+                background-color: $radical-red-lighter;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// }
+
+/* Admin Sidebar Menu */
+.vertical-layout {
+  .main-menu {
+    .navbar-header {
+      height: 7rem;
+      padding-top: 0rem;
+      .modern-nav-toggle {
+        text-align: center;
+        margin: 2rem 0;
+      }
+      .navbar-brand {
+        .brand-logo {
+          img {
+            max-width: 110px;
+          }
+        }
+      }
+    }
+  }
+}

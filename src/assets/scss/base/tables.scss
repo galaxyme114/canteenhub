@@ -1,0 +1,26 @@
+.react-dataTable {
+  .rdt_TableBody {
+    .rdt_TableRow {
+      .rdt_TableCell {
+        .action-btn {
+          // border: 1px $secondary solid;
+          background-color: $gray-100;
+          padding: 5px;
+          width: 30px;
+          height: 30px;
+          border-radius: 100%;
+
+          &:hover {
+            background-color: $radical-red-light;
+          }
+        }
+      }
+    }
+  }
+}
+
+.react-dataTable .rdt_TableHead .rdt_TableHeadRow {
+  background-color: $gray-100 !important;
+  border-top: 1 px solid;
+  border-color: $gray-200 !important;
+}

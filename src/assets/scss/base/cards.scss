@@ -1,0 +1,17 @@
+.card-approve-cta {
+  .card-icon {
+    background-color: $aero;
+    padding: 1rem;
+    border-radius: 100%;
+    width: auto;
+    margin-right: 2rem;
+
+    img {
+      height: 2rem;
+      width: auto;
+    }
+  }
+  // &:hover {
+  //   border: 10px red solid;
+  // }
+}

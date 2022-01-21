@@ -1,0 +1,25 @@
+.auth-wrapper {
+  .brand-logo {
+    img {
+      width: 150px;
+    }
+  }
+
+  &.auth-v1 .auth-inner:before,
+  &.auth-v1 .auth-inner:after {
+    background-image: none !important;
+  }
+
+  &.auth-register-landing .auth-inner {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .card-body {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .forgot-password-link {
+    line-height: 1;
+  }
+}

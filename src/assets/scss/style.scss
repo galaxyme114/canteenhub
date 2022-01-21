@@ -1,0 +1,37 @@
+/*================================================================================
+	Item Name: Canteen Hub Theme
+	Version: 2.0
+	Author: PAPA WHEELIE
+	Author URL: http://www.papawheelie.com.au
+================================================================================*/
+
+// Variables
+@import "./variables/variables-components";
+@import "./variables/variables";
+
+// Base
+@import "./base/alerts";
+@import "./base/avatars";
+@import "./base/badges";
+@import "./base/buttons";
+@import "./base/cards";
+@import "./base/global";
+@import "./base/forms";
+@import "./base/tables";
+@import "./base/type";
+
+// Layouts
+@import "./layouts/vertical-layout";
+@import "./layouts/horizontal-layout";
+@import "./layouts/blank-layout";
+@import "./layouts/global-layout-styles";
+
+// Pages
+@import "./pages/page-auth";
+
+// Components
+@import "./components/navbar";
+@import "./components/modals";
+@import "./components/footer";
+@import "./components/react-dropzone";
+@import "./components/react-select";

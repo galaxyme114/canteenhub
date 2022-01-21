@@ -1,0 +1,7 @@
+.react-select {
+  &.is-invalid {
+    .select__control {
+      border: 1px $red solid;
+    }
+  }
+}
